@@ -1,0 +1,19 @@
+C:\Users\lagau\OneDrive\Documents\Git\WPF\Weight Converter\obj\Debug\netcoreapp3.1\Weight Converter.csprojAssemblyReference.cache
+C:\Users\lagau\OneDrive\Documents\Git\WPF\Weight Converter\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\lagau\OneDrive\Documents\Git\WPF\Weight Converter\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\lagau\OneDrive\Documents\Git\WPF\Weight Converter\obj\Debug\netcoreapp3.1\Weight Converter_MarkupCompile.cache
+C:\Users\lagau\OneDrive\Documents\Git\WPF\Weight Converter\obj\Debug\netcoreapp3.1\Weight Converter_MarkupCompile.lref
+C:\Users\lagau\OneDrive\Documents\Git\WPF\Weight Converter\bin\Debug\netcoreapp3.1\Weight Converter.exe
+C:\Users\lagau\OneDrive\Documents\Git\WPF\Weight Converter\bin\Debug\netcoreapp3.1\Weight Converter.deps.json
+C:\Users\lagau\OneDrive\Documents\Git\WPF\Weight Converter\bin\Debug\netcoreapp3.1\Weight Converter.runtimeconfig.json
+C:\Users\lagau\OneDrive\Documents\Git\WPF\Weight Converter\bin\Debug\netcoreapp3.1\Weight Converter.runtimeconfig.dev.json
+C:\Users\lagau\OneDrive\Documents\Git\WPF\Weight Converter\bin\Debug\netcoreapp3.1\Weight Converter.dll
+C:\Users\lagau\OneDrive\Documents\Git\WPF\Weight Converter\bin\Debug\netcoreapp3.1\Weight Converter.pdb
+C:\Users\lagau\OneDrive\Documents\Git\WPF\Weight Converter\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\lagau\OneDrive\Documents\Git\WPF\Weight Converter\obj\Debug\netcoreapp3.1\Weight Converter.g.resources
+C:\Users\lagau\OneDrive\Documents\Git\WPF\Weight Converter\obj\Debug\netcoreapp3.1\Weight Converter.csproj.CoreCompileInputs.cache
+C:\Users\lagau\OneDrive\Documents\Git\WPF\Weight Converter\obj\Debug\netcoreapp3.1\Weight Converter.AssemblyInfoInputs.cache
+C:\Users\lagau\OneDrive\Documents\Git\WPF\Weight Converter\obj\Debug\netcoreapp3.1\Weight Converter.AssemblyInfo.cs
+C:\Users\lagau\OneDrive\Documents\Git\WPF\Weight Converter\obj\Debug\netcoreapp3.1\Weight Converter.dll
+C:\Users\lagau\OneDrive\Documents\Git\WPF\Weight Converter\obj\Debug\netcoreapp3.1\Weight Converter.pdb
+C:\Users\lagau\OneDrive\Documents\Git\WPF\Weight Converter\obj\Debug\netcoreapp3.1\Weight Converter.genruntimeconfig.cache
