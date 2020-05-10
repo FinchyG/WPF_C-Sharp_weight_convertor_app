@@ -15,8 +15,10 @@
         <WrapPanel>
             <Label Content="From Units:"/>
             <ComboBox Name="unitsChoice">
-                <ComboBoxItem IsSelected="True">KG to lbs</ComboBoxItem>
-                <ComboBoxItem>lbs to KG</ComboBoxItem>
+                <ComboBoxItem IsSelected="True" Content="KG to lbs"/>
+                <ComboBoxItem Content="lbs to KG"/>
+                <ComboBoxItem Content="grams to ounces"/>
+                <ComboBoxItem Content="ounces to grams"/>
             </ComboBox>
             <TextBox Name="fromInput" PreviewTextInput="NumberValidationTextBox"/>
         </WrapPanel>
