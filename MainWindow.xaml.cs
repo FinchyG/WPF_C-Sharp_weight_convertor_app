@@ -36,16 +36,23 @@ namespace Weight_Converter
             double userNumber = Convert.ToDouble(fromInput.Text);
             var userChoice = unitsChoice.Text;
             var answer = Math.Round((userNumber * 2.2),2);
-            toOutput.Text = $"{answer} lbs.";
+            
 
-            /*switch (userChoice)
+            switch (userChoice)
             {
                 case "KG to lbs":
                     answer = userNumber * 2.2;
-                    answerStr = Convert.ToString(answer);
-                    
+                    var answerStr = Convert.ToString(answer);
+                    toOutput.Text = $"{answerStr} lbs";
                     break;
-            }*/
+
+                case "lbs to KG":
+                    answer = userNumber / 2.2;
+                    var answerStr1 = Convert.ToString(answer);
+                    toOutput.Text = $"{answerStr1} KG";
+                    break;
+
+            }
 
         }
     }
