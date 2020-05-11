@@ -5,27 +5,74 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Weight_Converter"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="275" Width="300">
+    <Window.Resources>
+        <Style TargetType="Grid">
+            <Setter Property="Background" Value="LightSkyBlue"/>
+        </Style>       
+        <Style TargetType="TextBox">
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Width" Value="50"/>
+            <Setter Property="Background" Value="SkyBlue"/>
+            <Setter Property="TextAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="5"/>
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Width" Value="75"/>
+            <Setter Property="Background" Value="SkyBlue"/>
+            <Setter Property="TextAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="5"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Width" Value="auto"/>
+            <Setter Property="Background" Value="SkyBlue"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="5"/>
+        </Style>
+        <Style TargetType="ComboBox">
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Width" Value="125"/>
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="FontStyle" Value="Italic"/>
+            <Setter Property="FontWeight" Value="ExtraBold"/>
+        </Style>
+    </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
-        <WrapPanel>
-            <Label Content="From Units:"/>
+        <WrapPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Label Content="Conversion" />
             <ComboBox Name="unitsChoice">
                 <ComboBoxItem IsSelected="True" Content="KG to lbs"/>
                 <ComboBoxItem Content="lbs to KG"/>
                 <ComboBoxItem Content="grams to ounces"/>
                 <ComboBoxItem Content="ounces to grams"/>
             </ComboBox>
-            <TextBox Name="fromInput" PreviewTextInput="NumberValidationTextBox"/>
+            <Border BorderBrush="DeepSkyBlue" BorderThickness="2">
+                <TextBox Name="fromInput" PreviewTextInput="NumberValidationTextBox"/>
+            </Border>
         </WrapPanel>
-        <WrapPanel Grid.Row="1">
-            <Label Content="To Units:"/>
-            <TextBlock Name="toOutput" Text="{Binding userNumber}"/>
+        <WrapPanel Grid.Row="1" HorizontalAlignment="Center" Margin="5">
+            <Border BorderBrush="DeepSkyBlue" BorderThickness="2">
+                <Button Name="btnConvert" Click="BtnClick">Convert</Button>
+            </Border>
         </WrapPanel>
-        <Button Grid.Row="2" Name="btnConvert" Click="BtnClick">Convert</Button>
+        <WrapPanel Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Label Content="Result"/>
+            <Border BorderBrush="Gainsboro" BorderThickness="2">
+                <TextBlock Name="toOutput" Text="{Binding userNumber}"/>
+            </Border>
+        </WrapPanel>
     </Grid>
 </Window>
