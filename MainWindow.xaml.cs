@@ -26,11 +26,14 @@ namespace Weight_Converter
             InitializeComponent();
         }
 
+        // method to force numeric only user input
         private void NumberValidationTextBox(object sender, TextCompositionEventArgs e)
         {
             Regex regex = new Regex("[^0-9]+");
             e.Handled = regex.IsMatch(e.Text);
         }
+
+        // conversion event handling on user button click 
         private void BtnClick(object sender, RoutedEventArgs e)
         {
             double userNumber = Convert.ToDouble(fromInput.Text);
