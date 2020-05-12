@@ -42,27 +42,23 @@ namespace Weight_Converter
             switch (userChoice)
             {
                 case "KG to lbs":
-                    var answer = Math.Round((userNumber * 2.2),2);
-                    var answerStr = Convert.ToString(answer);
-                    toOutput.Text = $"{answerStr} lbs";
+                    var answer = Convert.ToString(Math.Round((userNumber * 2.2), 2));
+                    toOutput.Text = $"{answer} lbs";
                     break;
 
                 case "lbs to KG":
-                    var answer1 = Math.Round((userNumber / 2.2),2);
-                    var answerStr1 = Convert.ToString(answer1);
-                    toOutput.Text = $"{answerStr1} KG";
+                    var answer1 = Convert.ToString(Math.Round((userNumber / 2.2), 2));
+                    toOutput.Text = $"{answer1} KG";
                     break;
 
                 case "grams to ounces":
-                    var answer2 = Math.Round((userNumber / 28.35), 2);
-                    var answerStr2 = Convert.ToString(answer2);
-                    toOutput.Text = $"{answerStr2} ounces";
+                    var answer2 = Convert.ToString(Math.Round((userNumber / 28.35), 2));
+                    toOutput.Text = $"{answer2} ounces";
                     break;
 
                 case "ounces to grams":
-                    var answer3 = Math.Round((userNumber * 28.35), 2);
-                    var answerStr3 = Convert.ToString(answer3);
-                    toOutput.Text = $"{answerStr3} grams";
+                    var answer3 = Convert.ToString(Math.Round((userNumber * 28.35), 2));
+                    toOutput.Text = $"{answer3} grams";
                     break;
 
             }

@@ -20,7 +20,7 @@
         </Style>
         <Style TargetType="TextBlock">
             <Setter Property="FontWeight" Value="Bold"/>
-            <Setter Property="Width" Value="75"/>
+            <Setter Property="Width" Value="90"/>
             <Setter Property="Background" Value="SkyBlue"/>
             <Setter Property="TextAlignment" Value="Center"/>
             <Setter Property="VerticalAlignment" Value="Center"/>
@@ -59,7 +59,7 @@
                 <ComboBoxItem Content="grams to ounces"/>
                 <ComboBoxItem Content="ounces to grams"/>
             </ComboBox>
-            <Border BorderBrush="DeepSkyBlue" BorderThickness="2">
+            <Border BorderBrush="Gainsboro" BorderThickness="2">
                 <TextBox Name="fromInput" PreviewTextInput="NumberValidationTextBox"/>
             </Border>
         </WrapPanel>
