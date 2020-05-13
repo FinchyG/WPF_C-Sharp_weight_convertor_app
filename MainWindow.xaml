@@ -7,43 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="275" Width="300">
     <Window.Resources>
-        <Style TargetType="Grid">
-            <Setter Property="Background" Value="LightSkyBlue"/>
-        </Style>       
-        <Style TargetType="TextBox">
-            <Setter Property="FontWeight" Value="Bold"/>
-            <Setter Property="Width" Value="50"/>
-            <Setter Property="Background" Value="SkyBlue"/>
-            <Setter Property="TextAlignment" Value="Center"/>
-            <Setter Property="VerticalAlignment" Value="Center"/>
-            <Setter Property="Padding" Value="5"/>
-        </Style>
-        <Style TargetType="TextBlock">
-            <Setter Property="FontWeight" Value="Bold"/>
-            <Setter Property="Width" Value="90"/>
-            <Setter Property="Background" Value="SkyBlue"/>
-            <Setter Property="TextAlignment" Value="Center"/>
-            <Setter Property="VerticalAlignment" Value="Center"/>
-            <Setter Property="Padding" Value="5"/>
-        </Style>
-        <Style TargetType="Button">
-            <Setter Property="FontWeight" Value="Bold"/>
-            <Setter Property="Width" Value="auto"/>
-            <Setter Property="Background" Value="SkyBlue"/>
-            <Setter Property="HorizontalAlignment" Value="Center"/>
-            <Setter Property="VerticalAlignment" Value="Center"/>
-            <Setter Property="Padding" Value="5"/>
-        </Style>
-        <Style TargetType="ComboBox">
-            <Setter Property="HorizontalAlignment" Value="Center"/>
-            <Setter Property="HorizontalContentAlignment" Value="Center"/>
-            <Setter Property="FontWeight" Value="Bold"/>
-            <Setter Property="Width" Value="125"/>
-        </Style>
-        <Style TargetType="Label">
-            <Setter Property="FontStyle" Value="Italic"/>
-            <Setter Property="FontWeight" Value="ExtraBold"/>
-        </Style>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>

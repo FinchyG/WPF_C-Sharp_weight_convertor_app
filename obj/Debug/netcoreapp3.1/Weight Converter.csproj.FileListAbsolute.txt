@@ -17,3 +17,4 @@ C:\Users\lagau\OneDrive\Documents\Git\WPF\Weight Converter\obj\Debug\netcoreapp3
 C:\Users\lagau\OneDrive\Documents\Git\WPF\Weight Converter\obj\Debug\netcoreapp3.1\Weight Converter.dll
 C:\Users\lagau\OneDrive\Documents\Git\WPF\Weight Converter\obj\Debug\netcoreapp3.1\Weight Converter.pdb
 C:\Users\lagau\OneDrive\Documents\Git\WPF\Weight Converter\obj\Debug\netcoreapp3.1\Weight Converter.genruntimeconfig.cache
+C:\Users\lagau\OneDrive\Documents\Git\WPF\Weight Converter\obj\Debug\netcoreapp3.1\Styles.baml
